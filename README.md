@@ -181,7 +181,7 @@ Contributions are welcome! Please follow these steps:
 1. **Fork the Repository**: Click the "Fork" button at the top right of this page.
 2. **Clone Your Fork**:
    ```bash
-   git clone https://github.com/yourusername/healthy-meal-planner.git
+   git clone https://github.com/hero-rq/Food_Is_Therapy.git
    ```
 3. **Create a Feature Branch**:
    ```bash
