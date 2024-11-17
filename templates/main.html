@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F I T</title>
+    <link rel="stylesheet" href="/static/styles_main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js"></script>
+    <link rel="icon" href="/static/images/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <h1>Food is Therapy</h1>
+        </div>
+        <nav class="navbar">
+            <a href="random" class="nav-item">✨ Random</a>
+            <a href="healthy_meal" class="nav-item">🧑‍🍳 You Choice</a>
+            <a href="record_it" class="nav-item">🐶 Record It</a>
+            <a href="fortune_food" class="nav-item">🔮 Fortune Food</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Feature Section -->
+
+    <!-- Video and Features Section -->
+    <section class="video-and-features">
+        <!-- Video Section -->
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="/static/video/background.mp4" type="video/mp4">
+                Your browser does not support the video tag. Please disable the video or update your browser.
+            </video>
+        </div>
+        <!-- Features Section -->
+        <div class="features">
+            <!-- Random -->
+            <div id="random" class="feature-card">
+                <a href="/random" class="feature-button feature-image2">
+                    <span>✨ Random</span>
+                    <img src="/static/images/random.jpeg" alt="Random recipe" />
+                </a>
+                <p>Out of ideas? Generate a healthy recipe with just a few clicks and start cooking in no time!</p>
+            </div>
+
+            <div id="you-choice" class="feature-card">
+                <a href="/healthy_meal" class="feature-button feature-image4">
+                    <span>🧑‍🍳 You Choice</span>
+                    <img src="/static/images/you_choice.jpeg" alt="You choice" />
+                </a>
+                <p>Have ingredients but need inspiration? Enter your items and we'll craft recipes just for you, with video tutorials!</p>
+            </div>
+
+            <div id="record-it" class="feature-card">
+                <a href="/record_it" class="feature-button feature-image3">
+                    <span>🐶 Record It</span>
+                    <img src="/static/images/record_it.jpeg" alt="Record it" />
+                </a>
+                <p>Track your meals and let our adorable avatar dog reflect your healthy eating habits. Stay on track!</p>
+            </div>
+
+            <div id="fortune-food" class="feature-card">
+                <a href="/fortune_food" class="feature-button feature-image1">
+                    <span>🔮 Fortune Food</span>
+                    <img src="/static/images/fortune_food.jpeg" alt="Fortune food" />
+                </a>
+                <p>Let fate decide your next meal! Get a fun, healthy recipe recommendation inspired by your zodiac sign.</p>
+            </div>
+            </div>
+        </section>
+
+
+    <section class="reviews-and-avatar">
+        <div class="lottie-container">
+            <div id="lottie-avatar"></div>
+        </div>
+
+        <div class="reviews">
+            <h2>What Our Users Say 💬</h2>
+            <div class="review-card">
+                <p>"I love the 'Random' feature! It's so easy to discover new recipes. 🌟"</p>
+                <span>- Alex J.</span>
+            </div>
+            <div class="review-card">
+                <p>"The 'You Choice' feature helped me use up my leftover ingredients. Perfect! 🥕"</p>
+                <span>- Maria L.</span>
+            </div>
+            <div class="review-card">
+                <p>"My kids adore the avatar dog—it keeps them excited about healthy eating! 🐶"</p>
+                <span>- Chris D.</span>
+            </div>
+            <div class="review-card">
+                <p>"Fortune Food is such a fun way to pick my meals! It’s like a daily dose of surprise. 🎉"</p>
+                <span>- Sarah T.</span>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Healthy Recipe Hub | Eat smart, live well! 🌿</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        lottie.loadAnimation({
+            container: document.getElementById('lottie-avatar'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: '/static/animations/normaldog.json' // Replace with your Lottie animation file
+        });
+    </script>
+</body>
+</html>
