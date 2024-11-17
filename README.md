@@ -95,7 +95,7 @@ The **Food Is Therapy** is a Flask web application designed to help users:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/healthy-meal-planner.git
+   git clone https://github.com/hero-rq/Food_Is_Therapy.git
    cd healthy-meal-planner
    ```
 
