@@ -1,8 +1,8 @@
-# Healthy Meal Planner Application
+# Food Is Therapy Application
 
 ## Overview
 
-The **Healthy Meal Planner** is a Flask web application designed to help users:
+The **Food Is Therapy** is a Flask web application designed to help users:
 
 - Generate healthy recipes based on available ingredients and dietary preferences.
 - Track and visualize their eating habits over time.
