@@ -202,3 +202,4 @@ Contributions are welcome! Please follow these steps:
 - **OpenAI**: For providing the powerful language model APIs.
 - **Flask**: For the lightweight and easy-to-use web framework.
 - **YouTube Data API**: For enabling video content integration.
+
