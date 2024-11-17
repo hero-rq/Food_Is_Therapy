@@ -203,5 +203,5 @@ Contributions are welcome! Please follow these steps:
 - **Flask**: For the lightweight and easy-to-use web framework.
 - **YouTube Data API**: For enabling video content integration.
 
-(the video is not from me, my teammate, but if there is any problem about it, please tell me 
+*(the video file is not from me, my teammate, but if there is any problem about it, please tell me 
 I can modify it, unless I will let it stay, with getting zero benefits) 
